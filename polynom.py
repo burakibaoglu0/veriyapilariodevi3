@@ -63,7 +63,7 @@ class Polinom:
        
     def __add__(self, eklPoli):
         """
-        Bu polinomu ve rhsPoly'yi eklemenin sonucu olan yeni bir Polinom oluşturur ve döndürür.
+        Bu polinomu ve eklPoli'yi eklemenin sonucu olan yeni bir Polinom oluşturur ve döndürür.
         Bu işlem, polinomlardan herhangi biri boşsa tanımlanmaz.
         """
         if self.us() >= 0 and eklPoli.us() >= 0 :        #O(n)->Erişim sağlandığı için
