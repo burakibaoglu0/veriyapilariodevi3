@@ -169,12 +169,12 @@ class Polinom:
 
 
 if __name__ == "__main__":
-    birinciPol = Polinom(0,0)      #soldaki değer üs sağdaki değer katsayı 5x^2
-    birinciPol += Polinom(1, 3)     #soldaki değer üs sağdaki değer katsayı 3x^1
+    birinciPol = Polinom(2,5)      #soldaki değer üs sağdaki değer katsayı 5x^2
+    birinciPol += Polinom(1,3)     #soldaki değer üs sağdaki değer katsayı 3x^1
     birinciPol += Polinom(0, -10)   #soldaki değer üs sağdaki değer katsayı -10x^0
 
 
-    ikinciPol = Polinom(1133,5675)       #soldaki değer üs sağdaki değer katsayı 2x^3
+    ikinciPol = Polinom(3,2)       #soldaki değer üs sağdaki değer katsayı 2x^3
     ikinciPol += Polinom(2, 4)      #soldaki değer üs sağdaki değer katsayı 4x^2
     ikinciPol += Polinom(0, 3)      #soldaki değer üs sağdaki değer katsayı 3x^0
 
